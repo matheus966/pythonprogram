@@ -1,0 +1,19 @@
+#entrada
+x = int(input('Digite o valor da cordenada x:',))
+#entrada
+y = int(input('Digite o valor da cordenada y:',))
+
+if(x >= 1 and y >= 1):
+  print('O ponto está localizado no primeiro quadrante.')
+elif(x <= -1 and y >= 1):
+  print('O ponto está localizado no segundo quadrante.')
+elif(x <= -1 and y <= -1):
+  print('O ponto está localizado no terceito quadrante.')
+elif(x >= 1 and y<= -1):
+  print('O ponto está localizado no quarto quadrante.')
+elif(x == 0 and y != 0):
+  print('O ponto está localizado no eixo x.')
+elif(x != 0 and y == 0):
+  print('O ponto está localizado no eixo y.')
+else:
+    print('O ponto está localizado na origem do plano carteziano.')
